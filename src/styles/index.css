@@ -1,13 +1,13 @@
 @font-face {
    font-family: "casper";
-   src: url("/public/asset/Casper.ttf") format("truetype");
+   src: url("/public/asset/funky.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: "rikky";
-   src: url("/public/asset/RIKY2vamp.ttf") format("truetype");
+   src: url("/public/asset/pig.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
@@ -18,8 +18,11 @@
    font-style: normal;
 }
 .text-halo {
-   color: #f2731a !important;
+   color: #fcdc3b !important;
 }
 body {
    overflow-x: hidden;
+}
+.font-tha {
+   font-family: 'tha' !important;
 }

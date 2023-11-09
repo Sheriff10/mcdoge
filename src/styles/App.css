@@ -1,5 +1,5 @@
 body {
-   /* background: linear-gradient(30deg, #f2731a, #191919); */
+   /* background: linear-gradient(30deg, #fcdc3b, #191919); */
    min-height: 100vh;
 }
 
@@ -15,7 +15,7 @@ body {
    right: 0;
    top: 0;
 }
-.nav.lg{
+.nav.lg {
    backdrop-filter: blur(10px);
    z-index: 12;
 }
@@ -27,9 +27,9 @@ body {
    font-size: 20px;
    text-transform: uppercase;
    font-weight: bold;
-   color: #f2731a;
+   color: #fcdc3b;
    font-family: "rikky", serif;
-   transition: .5s ease;
+   transition: 0.5s ease;
 }
 .nav.lg span a:hover {
    transform: scaleX(1.5);
@@ -40,7 +40,7 @@ body {
    .nav {
       display: none;
    }
-   .mb.nav{
+   .mb.nav {
       display: flex !important;
    }
 }
@@ -51,7 +51,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url("/public/asset/intro-gif.gif");
+   background: url("/public/asset/mcd.webp");
    background-size: cover;
 }
 .intro .bg-wrap {
@@ -64,7 +64,7 @@ body {
 .intro .h1 {
    font-family: "casper", sans-serif;
    font-size: 100px;
-   color: #f2731a;
+   color: #fcdc3b;
    text-shadow: 10px 10px 10px #000;
 }
 .intro .slogan {
@@ -76,7 +76,7 @@ body {
 .intro .btn {
    /* background: url("/public/asset/button.png") no-repeat;
    background-size: cover; */
-   background: #f2731a;
+   background: #fcdc3b;
    border-radius: 0px;
    font-family: "rikky";
    font-size: 30px;
@@ -84,10 +84,9 @@ body {
    box-shadow: 10px 10px 0px;
 }
 .intro .btn:hover {
-   box-shadow: 10px 10px 20px #f2731a;
+   box-shadow: 10px 10px 20px #fcdc3b;
    background: #fff;
    border-radius: 20px 0px 20px 0px;
-   
 }
 .intro .btn img {
    width: 50px;
@@ -113,7 +112,7 @@ body {
    background: #131313;
    background: radial-gradient(
          circle at 3.3333333333333335% 52.5%,
-         #f2731a 0,
+         #fcdc3b 0,
          13%,
          rgba(10, 194, 143, 0) 26%
       ),
@@ -133,11 +132,15 @@ body {
 .about .h {
    font-size: 75px;
    font-family: "casper", sans-serif;
-   color: #f2731a;
+   color: #fcdc3b;
    backdrop-filter: blur(6px);
-   background: url("/public/asset/web.png") no-repeat;
+   /* background: url("/public/asset/web.png") no-repeat; */
    background-size: contain;
    background-position: center;
+}
+.about img {
+   width: 400px;
+   height: 400px;
 }
 .about .glass {
    background: #2d2d2d5c;
@@ -157,7 +160,7 @@ body {
 .card-con {
    background: radial-gradient(
          circle at 100% 52.5%,
-         /* Adjusted the position to move it to the right */ #f2731a 0,
+         /* Adjusted the position to move it to the right */ #fcdc3b 0,
          18%,
          rgba(10, 194, 143, 0) 26%
       ),
@@ -196,10 +199,6 @@ body {
    color: #c5c5c5;
    font-family: "rikky", serif;
 }
-.card-con .bg-wrap {
-   background: url("/public/asset/web2.png") no-repeat;
-   background-size: contain;
-}
 .card-con .hl {
    height: 300px;
    position: absolute;
@@ -215,7 +214,7 @@ body {
 
 /* How to buy */
 .buy {
-   background: url("/public/asset/Halloween5.png") no-repeat fixed;
+   background: url("/public/asset/mcd.jpeg") no-repeat fixed;
    background-size: cover;
 }
 .buy .bg-wrap {
@@ -231,7 +230,7 @@ body {
    padding: 10px;
    border-radius: 20px;
    backdrop-filter: blur(10px);
-   background: linear-gradient(45deg, #f2741a79, #131313b4 100%);
+   background: linear-gradient(45deg, #f2d51a79, #131313b4 100%);
    /* display: flex;
    flex-direction: column;
    justify-content: space-between; */
@@ -248,7 +247,7 @@ body {
 .buy .box .h {
    font-family: "casper", sans-serif;
    font-size: 20px;
-   color: #f2731a;
+   color: #fcdc3b;
 }
 .buy .box span {
    font-size: 16px;
@@ -258,9 +257,9 @@ body {
 
 /* Gallery */
 .gallery {
-   background: radial-gradient(
+   /* background: radial-gradient(
          circle at 3.3333333333333335% 52.5%,
-         #f2731a 0,
+         #fcdc3b 0,
          13%,
          rgba(10, 194, 143, 0) 26%
       ),
@@ -275,7 +274,16 @@ body {
          #131313 0,
          100%,
          hsla(0, 0%, 100%, 0) 100%
-      );
+      ); */
+   background: yellow;
+   font-family: "tha", sans-serif;
+}
+.gallery .h {
+   font-family: "casper", sans-serif;
+}
+.gallery h1 {
+   font-family: "casper", sans-serif;
+   font-size: 40px;
 }
 .gallery img {
    width: 400px;
@@ -289,10 +297,9 @@ body {
    color: #c5c5c5;
 }
 .footer .bg-wrap {
-   background: url("/public/asset/Halloween3\ \(1\).png") no-repeat;
+   /* background: url("/public/asset/Halloween3\ \(1\).png") no-repeat; */
    background-size: cover;
    background-position: center center;
-   min-height: 50vh;
 }
 .footer .box {
    bottom: 0;
@@ -311,17 +318,16 @@ body {
    font-size: 18px;
 }
 .footer .tt {
-   font-family: 'rikky', serif !important;
+   font-family: "tha", serif !important;
 }
 /* Roadmap */
 .roadmap {
    background: dark;
-   background: #131313;
 }
-.roadmap h1 {
+.roadmap h1, .gallery h1  {
    font-family: "casper", serif;
    font-size: 100px;
-   color: #f2731a;
+   color: #000;
    text-shadow: 10px 10px 10px #000;
 }
 .roadmap .text-wrap {
@@ -335,7 +341,7 @@ body {
    background: #4444447a;
    padding: 20px;
    border-radius: 0px 20px 20px 0px;
-   color: #f7d38a;
+   color: #000;
    width: 100%;
    height: 100%;
    align-items: center;
@@ -347,11 +353,12 @@ body {
    width: 30px;
 }
 .roadmap .bg-wrap {
-   background: url("/public/asset/web2.png") no-repeat;
+   /* background: url("/public/asset/web2.png") no-repeat; */
+   background: yellow;
    background-size: contain;
 }
 @media (max-width: 620px) {
-   .roadmap h1 {
+   .roadmap h1, .gallery h1  {
       font-size: 50px;
    }
    .roadmap .l {
@@ -411,7 +418,7 @@ body {
    padding: 0;
 }
 .mb.nav .menu-con ul a {
-   color: #f2731a;
+   color: #fcdc3b;
    font-size: 40px;
    text-decoration: none;
    font-family: "casper", serif;
@@ -425,7 +432,7 @@ body {
    width: 150px;
 }
 @media (max-width: 1110px) {
-   .mb.nav{
+   .mb.nav {
       display: flex !important;
    }
 }

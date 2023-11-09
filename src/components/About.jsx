@@ -42,54 +42,56 @@ export default function About() {
          <div className="bg-wrap">
             <div className="container">
                <div className="row align-items-center">
-                  <div className="col-lg-6 mb-3">
+                  <div className="col-lg-12 mb-3">
                      <div
                         className={`text-wrap glass ${
                            isGlassIntersecting ? "slide-in" : ""
                         }`}
                         ref={glassRef}
                      >
-                        <span className="h">
-                           {" "}
-                           ABOUT <br /> K AZUWEEN
-                        </span>{" "}
-                        <br />
+                        <span className="h"> ABOUT McDoge</span> <br />
                         <span className="text-light">
-                           Kazukween is a mysterious and enigmatic Halloween
-                           character, known for their spine-chilling presence
-                           and eerie charm. With a striking appearance that
-                           combines elegance with fright, Kazukween boasts
-                           ghostly white skin, midnight-black cascading hair,
-                           and piercing electric blue eyes that seem to radiate
-                           an otherworldly light. They are always seen donning
-                           dark, flowing robes adorned with silver-threaded
-                           spiderwebs and hauntingly beautiful embroidery, their
-                           face concealed behind a haunting mask.
+                           McDoge is a lighthearted meme coin inspired by
+                           the famous "Doge" meme and the fast-food chain
+                           McDonald's. Its community-driven spirit thrives on
+                           combining the fun of internet culture with the
+                           ambition to reach the "moon."
                         </span>{" "}
                         <br /> <br />
                         <span className="text-light">
-                           Kazukween is a playful and mischievous character,
-                           embodying the spirit of Halloween with a penchant for
-                           lighthearted pranks and spectral tricks. Despite
-                           their haunting presence, they are not malevolent but
-                           rather aim to spread the joy of the season with their
-                           supernatural abilities, which include levitation and
-                           the creation of ghostly illusions. This enigmatic
-                           character adds an extra layer of mystique to the
-                           spookiest time of the year, leaving a lasting
-                           impression on all who encounter them.
+                           McDoge fosters a welcoming and inclusive
+                           environment where meme enthusiasts, cryptocurrency
+                           aficionados, and those new to the space can come
+                           together. Its community actively participates in meme
+                           contests, charity initiatives, and other fun events,
+                           making it more than just a cryptocurrency but a
+                           gathering place for like-minded individuals. The
+                           project's lighthearted and friendly approach to
+                           crypto has attracted a diverse group of supporters
+                           who enjoy the fusion of humor, financial
+                           possibilities, and the exciting journey to the moon.
                         </span>
                      </div>
                   </div>
-                  <div className={`col-lg-6 zuki mb-3 `}>
+                  <div className={`col-lg-12 zuki mb-3 `}>
                      <div
-                        className={`img-wrap  text-center ${
+                        className={`img-wrap d-flex gap-3 flex-wrap justify-content-center  text-center ${
                            isImgWrapIntersecting ? "slide-in" : ""
                         }`}
                         ref={imgWrapRef}
                      >
                         <img
-                           src="/asset/kuzuki.png"
+                           src="/asset/abt.png"
+                           alt="Kuzuki"
+                           className="img-fluid"
+                        />
+                        <img
+                           src="/asset/abt2.png"
+                           alt="Kuzuki"
+                           className="img-fluid"
+                        />
+                        <img
+                           src="/asset/abt3.png"
                            alt="Kuzuki"
                            className="img-fluid"
                         />

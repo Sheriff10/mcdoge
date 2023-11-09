@@ -34,7 +34,7 @@ function CardItem({ title, text }) {
     <div className={`card ${isCardIntersecting ? "slide-in" : ""}`} ref={cardRef}>
       <div className="wrap">
         <div className="img-con">
-          <img src="/asset/pumpkin.png" alt="pumpkin" />
+          <img src="/asset/gls.png" alt="pumpkin" />
         </div>
         <div className="text-wrap">
           <span className="h text-halo fw-bold">{title}</span> <br />

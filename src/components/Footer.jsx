@@ -4,7 +4,6 @@ export default function Footer() {
    return (
       <div className="footer">
          <div className="bg-wrap">
-            <div className="spacing"></div>
          </div>
          <div className="disclaimer  py-5 text-warning" id="disclaimer">
             <div className="container">
@@ -21,12 +20,12 @@ export default function Footer() {
          <div className="box fs-5">
             <div className="container d-flex flex-wrap gap-3 justify-content-between align-items-center py-5">
                <span>
-                  Powered by <span className="text-halo">$KAZUWEEN</span>
+                  Powered by <span className="text-halo">$MCDOGE</span>
                </span>
                <span> Company Rights Reserved</span>
                <span>
                ©
-                  <span className="text-halo tt"> 2023</span>
+                  <span className="text-halo tt font-tha"> 2023</span>
                </span>
             </div>
          </div>
