@@ -21,13 +21,13 @@ export default function Intro() {
                </span> */}
                <div className="wrap d-flex flex-wrap">
                   <div className="btn-wrap col mt-3 container">
-                     <button className="btn col-lg-12">
+                     <button className="btn bg-dark text-light col-lg-12">
                         {" "}
                         BUY
                      </button>
                   </div>
                   <div className="btn-wrap col mt-4 container">
-                     <button className="btn col-lg-12">
+                     <button className="btn bg-dark text-light col-lg-12">
                         {" "}
                          Chart{" "}
                      </button>
