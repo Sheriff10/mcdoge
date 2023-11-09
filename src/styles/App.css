@@ -20,7 +20,7 @@ body {
    z-index: 12;
 }
 .nav img {
-   width: 200px;
+   width: 70px;
 }
 .nav span a {
    text-decoration: none;
@@ -389,7 +389,7 @@ body {
    letter-spacing: 5px;
 }
 .mb.nav .logo-con img {
-   width: 200px;
+   width: 70px;
 }
 .mb.nav .menu-con {
    position: fixed;

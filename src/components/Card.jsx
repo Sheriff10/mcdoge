@@ -49,15 +49,15 @@ export default function Card() {
   const cardArray = [
     {
       title: "Backed Community",
-      text: "$KAZUKWEEN has strong community backing, Everything done is for the community by the community",
+      text: "$McDoge has strong community backing, Everything done is for the community by the community",
     },
     {
       title: "Based Dev",
-      text: "Developers of $KAZUKWEEN are experienced in devving and an organized team.",
+      text: "Developers of $McDoge are experienced in devving and an organized team.",
     },
     {
       title: "Locked Liquidity",
-      text: "$KAZUKWEEN liquidity is locked, which enables safe trading",
+      text: "$McDoge liquidity is locked, which enables safe trading",
     },
   ];
 
