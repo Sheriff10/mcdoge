@@ -5,12 +5,12 @@ export default function Intro() {
    return (
       <div className="intro">
          <div className="bg-wrap col-12 py-5">
-            <div className="col-lg-6 wrap text-center mx-auto bg-">
+            <div className="col-lg-6 wrap text-center mx-auto">
                <div className="socials d-flex gap-3 justify-content-center mt-5 pt-5">
-                  <span className="fs-2 text-halo">
+                  <span className="fs-2 text-dark">
                      <FaTelegram />
                   </span>
-                  <span className="fs-2 text-halo">
+                  <span className="fs-2 text-dark">
                      <FaTwitter />
                   </span>
                </div>

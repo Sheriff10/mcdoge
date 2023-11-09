@@ -50,7 +50,7 @@ export default function About() {
                         ref={glassRef}
                      >
                         <span className="h"> ABOUT McDoge</span> <br />
-                        <span className="text-light">
+                        <span className="text-dark">
                            McDoge is a lighthearted meme coin inspired by
                            the famous "Doge" meme and the fast-food chain
                            McDonald's. Its community-driven spirit thrives on
@@ -58,7 +58,7 @@ export default function About() {
                            ambition to reach the "moon."
                         </span>{" "}
                         <br /> <br />
-                        <span className="text-light">
+                        <span className="text-dark">
                            McDoge fosters a welcoming and inclusive
                            environment where meme enthusiasts, cryptocurrency
                            aficionados, and those new to the space can come

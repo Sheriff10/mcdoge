@@ -72,8 +72,8 @@ export default function Htb() {
       <div className="bg-wrap">
         <div className="container">
           <div className="head py-3 text-center text-light">
-            <span className="head">
-              Buy <span className="text-halo"> KAZUWEEN </span> before it's too late
+            <span className="head text-dark">
+              Buy <span className="text-black"> MCDOGE </span> before it's too late
             </span>
           </div>
           <div className="row">

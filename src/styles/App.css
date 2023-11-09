@@ -27,7 +27,8 @@ body {
    font-size: 20px;
    text-transform: uppercase;
    font-weight: bold;
-   color: #fcdc3b;
+   color: #131313;
+   text-shadow: 0px 2px 5px #000;
    font-family: "rikky", serif;
    transition: 0.5s ease;
 }
@@ -51,11 +52,12 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url("/public/asset/mcd.webp");
+   /* background: url("/public/asset/mcd.webp"); */
+   background: yellow;
    background-size: cover;
 }
 .intro .bg-wrap {
-   background: #000000a7;
+   /* background: #000000a7; */
    min-height: 100vh;
    padding: 20px 0px;
    display: flex;
@@ -64,7 +66,7 @@ body {
 .intro .h1 {
    font-family: "casper", sans-serif;
    font-size: 100px;
-   color: #fcdc3b;
+   color: #131313;
    text-shadow: 10px 10px 10px #000;
 }
 .intro .slogan {
@@ -109,8 +111,8 @@ body {
 }
 /* About */
 .about {
-   background: #131313;
-   background: radial-gradient(
+   background: yellow;
+   /* background: radial-gradient(
          circle at 3.3333333333333335% 52.5%,
          #fcdc3b 0,
          13%,
@@ -127,7 +129,7 @@ body {
          #131313 0,
          100%,
          hsla(0, 0%, 100%, 0) 100%
-      );
+      ); */
 }
 .about .h {
    font-size: 75px;
@@ -214,23 +216,24 @@ body {
 
 /* How to buy */
 .buy {
-   background: url("/public/asset/mcd.jpeg") no-repeat fixed;
+   /* background: url("/public/asset/mcd.jpeg") no-repeat fixed; */
+   background: yellow;
    background-size: cover;
 }
 .buy .bg-wrap {
-   background: #0000009e;
    padding: 30px 0px;
 }
 .buy .head {
    font-size: 50px;
    font-family: "casper", serif;
    letter-spacing: 5px;
+   text-shadow: 5px 5px 5px #131313;
 }
 .buy .box {
    padding: 10px;
    border-radius: 20px;
    backdrop-filter: blur(10px);
-   background: linear-gradient(45deg, #f2d51a79, #131313b4 100%);
+   background: linear-gradient(45deg, #f2941a79, #131313b4 100%);
    /* display: flex;
    flex-direction: column;
    justify-content: space-between; */
@@ -247,11 +250,11 @@ body {
 .buy .box .h {
    font-family: "casper", sans-serif;
    font-size: 20px;
-   color: #fcdc3b;
+   color: #131313;
 }
 .buy .box span {
    font-size: 16px;
-   color: #f7d38a;
+   color: #000;
    font-family: "rikky", serif;
 }
 
