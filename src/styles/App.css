@@ -352,6 +352,9 @@ body {
 .roadmap .l .list-wrap {
    border-radius: 20px 0px 0px 20px;
 }
+.roadmap ul {
+   font-family: 'tha';
+}
 .roadmap ul img {
    width: 30px;
 }
