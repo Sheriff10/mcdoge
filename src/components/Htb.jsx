@@ -62,7 +62,7 @@ export default function Htb() {
     },
     {
       img: "/asset/logo.png",
-      title: "Swap ETH for $KZK",
+      title: "Swap ETH for $McD",
       text: "You can start swapping as soon as you have ETH available! Press ‘Select a token’ and enter the token address or search for it on the tokens list.",
     },
   ];
